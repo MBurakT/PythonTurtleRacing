@@ -66,7 +66,7 @@ def play() -> None:
     turtles = create_turtles(colors, WIDTH, HEIGHT)
 
     answer = input(
-        "Type the color of turtle you guess to win the race: ").lower()
+        "Type the color of turtle you guess who win the race: ").lower()
 
     winners_color = race(colors, turtles, HEIGHT)
 
